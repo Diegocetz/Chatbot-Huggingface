@@ -23,18 +23,18 @@ with st.sidebar:
     add_vertical_space(3)
     st.write('Made with ❤️ by [Prompt Engineer](https://youtube.com/@engineerprompt)')
 
-st.header("Your Personal Assistant 💬")
+st.header("Tu asistente HuggingChat")
 
 def main():
 
     # Generate empty lists for generated and user.
     ## Assistant Response
     if 'generated' not in st.session_state:
-        st.session_state['generated'] = ["I'm Assistant, How may I help you?"]
+        st.session_state['generated'] = ["soy tu asistente HuggingChat, en que puedo ayudarte?"]
 
     ## user question
     if 'user' not in st.session_state:
-        st.session_state['user'] = ['Hi!']
+        st.session_state['user'] = ['Hola!']
 
     # Layout of input/response containers
     response_container = st.container()
