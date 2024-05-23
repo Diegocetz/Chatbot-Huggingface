@@ -3,4 +3,3 @@ hugchat
 streamlit-chat
 streamlit-extras
 langchain
-dotenv
